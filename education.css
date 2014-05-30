@@ -1,0 +1,436 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #000000 url(images-css/img12.jpg) repeat top left;
+	text-align: left;
+	color: #FFFFFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+input, textarea {
+	padding: 5px;
+	border: 1px solid #626262;
+	font: normal 1em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+h1, h1 a, h2, h2 a, h3, h3 a {
+	margin: 0;
+	text-decoration: none;
+	font-weight: normal;
+	color: #AAFF00;
+}
+
+h1 {
+	letter-spacing: -3px;
+	font-size: 2.6em;
+}
+
+h2 {
+	letter-spacing: -2px;
+	font-size: 2em;
+}
+
+h3 {
+	margin-bottom: 2em;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+p, ol, ul {
+	margin: 0 0 2em 0;
+	line-height: 200%;
+}
+
+blockquote {
+	margin: 0 0 0 1.5em;
+	padding-left: 1em;
+	border-left: 5px solid #DDDDDD;
+}
+
+a {
+	color: #AAFF00;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 8px 20px 0px 0px;
+	border: 2px solid #434343; 
+}
+
+
+/* Header */
+
+#wrapper {
+	background: url(images-css/img14.jpg) no-repeat center top;
+}
+
+#header {
+	width: 900px;
+	height: 128px;
+	margin: 0 auto;
+}
+
+#logo h1, #logo p {
+	float: left;
+	color: #AAFF00;
+}
+
+#logo h1 {
+	height: 88px;
+	padding: 20px 90px 0 0;
+	font-size: 4em;
+}
+
+#logo p {
+	margin: 0 0 0 -80px;
+	padding: 55px 0 0 0;
+	line-height: normal;
+	letter-spacing: -1px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #AAFF00;
+	font-weight: bold;
+}
+
+/* RSS */
+
+#rss {
+	padding: 30px 39px 20px 0;
+	text-align: right;
+}
+
+#rss a {
+	padding: 0 0 3px 24px;
+	background: url(images-css/img03.gif) no-repeat;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#rss a:hover {
+	text-decoration: underline;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 200px;
+	height: 28px;
+	background: #FFFFFF url(images-css/img02.gif) no-repeat;
+}
+
+#search #x {
+	display: none;
+}
+
+#search #s {
+	padding: 6px 5px 5px 35px;
+	width: 160px;
+	height: auto;
+	background: none;
+	border: none;
+	font: normal 1em Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+
+#search br {
+	display: none;
+}
+
+/* Page */
+
+#page {
+	width: 890px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+/* Ads */
+
+#ads {
+	float: right;
+	width: 220px;
+	height: 50px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 20px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 625px;
+}
+
+.post {
+	margin-bottom: 50px;
+}
+
+.post .title {
+}
+
+.post .title h2 {
+	font-size: 2.2em;
+}
+
+.post .title p {
+	margin: 0;
+	line-height: normal;
+	color: #BABABA;
+}
+
+.post .title p a {
+	color: #BABABA;
+}
+
+.post .entry {
+	padding-top: 0px;
+	font-size: 15px;
+	font-family: "Comic Sans MS", cursive;
+}
+
+.post .links {
+	width: 410px;
+	height: 29px;
+	margin: 0;
+	padding: 6px 0 0 20px;
+	background: #F3F3F3 url(images-css/img08.gif) no-repeat;
+}
+
+.post .links a {
+	padding: 0 23px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.post .links a:hover {
+	text-decoration: underline;
+}
+
+.post .links .more {
+	background: url(images-css/img09.gif) no-repeat;
+}
+
+.post .links .comments {
+	background: url(images-css/img10.gif) no-repeat;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 240px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin-bottom: 20px;
+	backgrounda: #F3F3F3 url(images-css/img13.jg) repeat-y left top;
+}
+
+#sidebar li ul {
+	padding: 15px 20px;
+	line-height: 200%;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding-left: 15px;
+	background: url(images-css/img07.gif) no-repeat 0 11px;
+}
+
+#sidebar h2 {
+	width: 210px;
+	height: 30px;
+	padding: 5px 0 0 30px;
+	background: #FFB700 url(images-css/img05.gif);
+	letter-spacing: -1px;
+	font-size: 1.6em;
+	color: #FFFFFF;
+}
+
+/* Calendar */
+
+#calendar_wrap {
+	padding: 15px 20px;
+}
+
+#calendar table {
+	width: 100%;
+	background: #1F1F1D;
+	border: 1px solid #11110F;
+	text-align: center;
+}
+
+#calendar thead {
+	background: #161616;
+}
+
+#calendar tbody td {
+	background: #0F0F0D;
+	border: 1px solid #11110F;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #today {
+	background: #121210;
+	border: 1px solid #11110F;
+	font-weight: bold;
+	color: #AAFF00
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 950px;
+	margin: 0 auto;
+	padding: 30px 0;
+	background: url(images-css/img11.gif) no-repeat;
+}
+
+#footer p {
+	margin: 0 0 5px 0;
+	text-align: center;
+	line-height: normal;
+	font-size: .9em;
+}
+
+#footer a {
+	text-decoration: none;
+}
+
+
+
+/* Menu */
+
+#menu {
+	width: 950px;
+	height: 60px;
+	margin: 0 auto;
+	background: #6AA2FD url(images-css/img04.gif);
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+	text-transform: uppercase;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	background: url(images-css/img15.gif) no-repeat right 100%;
+	padding: 18px 30px 0 30px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	height: 60px;
+	background: url(images-css/img16.gif) repeat-x right 30%;
+	color: #000000;
+}
+
+#menu .current_page_item {
+}
+
+#menu .current_page_item a {
+	color: #FFFFFF;
+}
+
+
+
+#cssmenu{
+	height: 37px;
+	display: block;
+	padding: 0;
+	width: 900px;
+	border: 1px solid;
+	border-radius: 5px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+} 
+#cssmenu > ul {list-style:inside none; padding:0; margin:0;} 
+#cssmenu > ul > li {list-style:inside none; padding:0; margin:0; float:left; display:block; position:relative;} 
+#cssmenu > ul > li > a{ outline:none; display:block; position:relative; padding:12px 20px; font:bold 13px/100% Arial, Helvetica, sans-serif; text-align:center; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.4); } 
+#cssmenu > ul > li:first-child > a{border-radius:5px 0 0 5px;} 
+#cssmenu > ul > li > a:after{ content:''; position:absolute; border-right:1px solid; top:-1px; bottom:-1px; right:-2px; z-index:99; } 
+#cssmenu ul li.has-sub:hover > a:after{top:0; bottom:0;} 
+#cssmenu > ul > li.has-sub > a:before{ content:''; position:absolute; top:18px; right:6px; border:5px solid transparent; border-top:5px solid #fff; } 
+#cssmenu > ul > li.has-sub:hover > a:before{top:19px;} 
+#cssmenu ul li.has-sub:hover > a{ background:#3f3f3f; border-color:#3f3f3f; padding-bottom:13px; padding-top:13px; top:-1px; z-index:999; } 
+#cssmenu ul li.has-sub:hover > ul, #cssmenu ul li.has-sub:hover > div{display:block;} 
+#cssmenu ul li.has-sub > a:hover{background:#3f3f3f; border-color:#3f3f3f;} 
+#cssmenu ul li > ul, #cssmenu ul li > div{ display:none; width:auto; position:absolute; top:38px; padding:10px 0; background:#3f3f3f; border-radius:0 0 5px 5px; z-index:999; } 
+#cssmenu ul li > ul{width:200px;} 
+#cssmenu ul li > ul li{display:block; list-style:inside none; padding:0; margin:0; position:relative;} 
+#cssmenu ul li > ul li a{ outline:none; display:block; position:relative; margin:0; padding:8px 20px; font:10pt Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.5); } 
+
+
+#cssmenu, #cssmenu > ul > li > ul > li a:hover{ background:#333333; background:-moz-linear-gradient(top, #333333 0%, #222222 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#333333), color-stop(100%,#222222)); background:-webkit-linear-gradient(top, #333333 0%,#222222 100%); background:-o-linear-gradient(top, #333333 0%,#222222 100%); background:-ms-linear-gradient(top, #333333 0%,#222222 100%); background:linear-gradient(top, #333333 0%,#222222 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#222222',GradientType=0 ); } 
+#cssmenu{border-color:#000;} 
+#cssmenu > ul > li > a{border-right:1px solid #000; color:#fff;} 
+#cssmenu > ul > li > a:after{border-color:#444;} 
+#cssmenu > ul > li > a:hover{background:#111;}
