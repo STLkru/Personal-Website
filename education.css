@@ -32,11 +32,25 @@ input, textarea {
 	font-size: 18px;
 }
 
-h1, h1 a, h2, h2 a, h3, h3 a {
+/*h1, h1 a, h2, h2 a, h3, h3 a {
 	margin: 0;
 	text-decoration: none;
 	font-weight: normal;
 	color: #AAFF00;
+}*/
+
+h1, h1 a, h2, h3, h3 a{
+	margin: 0;
+	text-decoration: none;
+	font-weight: normal;
+	color: #AAFF00;
+}
+
+h2 a{
+	margin: 0;
+	text-decoration: none;
+	font-weight: normal;
+	color: #BABABA;
 }
 
 h1 {
@@ -193,7 +207,7 @@ img.left {
 
 #content {
 	float: left;
-	width: 625px;
+	width: 635px;
 }
 
 .post {
@@ -205,6 +219,7 @@ img.left {
 
 .post .title h2 {
 	font-size: 2.2em;
+	color: #BABABA;
 }
 
 .post .title p {
